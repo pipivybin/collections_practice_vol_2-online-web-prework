@@ -47,8 +47,10 @@ def find_cool(a)
   new_hash = {}
   a.each do
     |arr| arr.each do
-      |x, hash| hash.each do
-        |key, city|
+      |school, hash| hash.each do
+        if new_hash[city] == nil
+        |key, city| new_hash[city] = schools
+        schools << school if 
       end
     end
   end
