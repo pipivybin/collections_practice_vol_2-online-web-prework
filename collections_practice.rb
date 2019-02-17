@@ -33,7 +33,7 @@ def count_elements(a)
   count = 0
   a.each do
     |hash| hash.each do
-      |name, value|
+      |name, value| 
     end
   end
 end
@@ -43,10 +43,11 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
+  schools = []
   a.each do
     |arr| arr.each do
       |x, hash| hash.each do
-        |key, value|
+        |key, city| 
       end
     end
   end
