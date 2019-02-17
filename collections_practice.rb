@@ -30,10 +30,10 @@ def remove_non_strings(a)
 end
 
 def count_elements(a)
-  count
+  count = 0
   a.each do
-    |has| has.each do
-      |name, value|
+    |hash| hash.each do
+      |name, value| 
     end
   end
 end
@@ -43,7 +43,13 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
-
+  a.each do
+    |arr| arr.each do
+      |x, hash| hash.each do
+        |key, value|
+      end
+    end
+  end
 end
 
 def organize_schools(a)
