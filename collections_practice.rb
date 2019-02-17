@@ -51,7 +51,6 @@ end
 def organize_schools(a)
   schools = []
   new_hash = {}
-  binding.pry
   a.each do
       |school, hash| hash.each do
         |key, city| schools << school
