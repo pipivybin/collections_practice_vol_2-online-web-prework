@@ -43,7 +43,7 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
-  
+
 end
 
 def organize_schools(a)
@@ -52,7 +52,7 @@ def organize_schools(a)
   a.each do
     |arr| arr.each do
       |school, hash| hash.each do
-        |key, city| schools << school 
+        |key, city| schools << school
         new_hash[city] = schools
       end
     end
