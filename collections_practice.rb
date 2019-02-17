@@ -45,7 +45,7 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
-
+  return a
 end
 
 def organize_schools(a)
