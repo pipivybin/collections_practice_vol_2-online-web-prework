@@ -49,7 +49,7 @@ def find_cool(a)
     |hash| hash.each do
       |subhash| subhash.each do
         |key, value| if value == "cool"
-          return hash
+          return subhash
         end
       end
     end
