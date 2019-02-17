@@ -53,7 +53,7 @@ def organize_schools(a)
   new_hash = {}
   binding.pry
   a.each do
-    
+
     |arr| arr.each do
       |school, hash| hash.each do
         |key, city| schools << school
