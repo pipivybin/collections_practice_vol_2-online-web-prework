@@ -45,7 +45,15 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
-  return a
+  a.each do
+    |hash| hash.each do
+      |subhash| subhash.each do
+        |key, value| if value == "cool"
+          return hash
+        end
+      end
+    end
+  end
 end
 
 def organize_schools(a)
