@@ -50,7 +50,7 @@ def find_cool(a)
       |school, hash| hash.each do
         if new_hash[city] == nil
         |key, city| new_hash[city] = schools
-        schools << school if 
+        schools << school if
       end
     end
   end
