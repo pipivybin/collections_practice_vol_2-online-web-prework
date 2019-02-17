@@ -32,10 +32,10 @@ def remove_non_strings(a)
 end
 
 def count_elements(a)
-  num = 0
   a.each do
-    |hash| hash.each do
-      |name, value|
+    num = 0
+    |hash| num = hash.count
+    hash[:count] = num
     end
   end
 end
