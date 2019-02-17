@@ -48,7 +48,7 @@ def find_cool(a)
   a.each do
     |arr| arr.each do
       |x, hash| hash.each do
-        |key, city| 
+        |key, city|
       end
     end
   end
