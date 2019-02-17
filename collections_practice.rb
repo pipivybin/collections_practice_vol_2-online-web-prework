@@ -33,7 +33,7 @@ def count_elements(a)
   count = 0
   a.each do
     |hash| hash.each do
-      |name, value| 
+      |name, value|
     end
   end
 end
@@ -47,7 +47,7 @@ def find_cool(a)
   a.each do
     |arr| arr.each do
       |x, hash| hash.each do
-        |key, city| 
+        |key, city|
       end
     end
   end
