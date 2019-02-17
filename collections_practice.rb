@@ -45,8 +45,9 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
+binding.pry
   a.each do
-    binding.pry
+    
     |hash| hash.each do
       |subhash| subhash.each do
         |key, value| if value == "cool"
