@@ -45,10 +45,11 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
+  new_hash = []
   a.each do
     |hash| hash.each do
         |key, value| if value == "cool"
-          return hash
+          return new_hash << hash
       end
     end
   end
