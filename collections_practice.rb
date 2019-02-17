@@ -33,7 +33,7 @@ end
 
 def count_elements(a)
   a.each do
-    |hash| num = 0 num = hash.count
+    |hash| num = hash.count
     hash[:count] = num
     end
   a
