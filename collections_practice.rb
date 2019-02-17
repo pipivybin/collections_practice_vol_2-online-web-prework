@@ -49,13 +49,12 @@ def find_cool(a)
 end
 
 def organize_schools(a)
-  schools = []
   new_hash = {}
   a.each do
       |school, hash| hash.each do
         |key, city| if new_hash[city] == nil
         new_hash[city] = school.to_a
-      else schools << school
+      else new_hash[city] << school
       end
       end
     end
