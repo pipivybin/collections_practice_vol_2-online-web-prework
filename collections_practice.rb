@@ -36,7 +36,6 @@ def count_elements(a)
     |hash| num = 0 num = hash.count
     hash[:count] = num
     end
-  end
   a
 end
 
