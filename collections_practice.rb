@@ -44,10 +44,11 @@ end
 
 def find_cool(a)
   schools = []
+  new_hash = {}
   a.each do
     |arr| arr.each do
       |x, hash| hash.each do
-        |key, city|
+        |key, city| 
       end
     end
   end
