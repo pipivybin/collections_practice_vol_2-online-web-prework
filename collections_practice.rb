@@ -57,6 +57,5 @@ def organize_schools(a)
         new_hash[city] = schools
       end
     end
-  end
   new_hash
 end
