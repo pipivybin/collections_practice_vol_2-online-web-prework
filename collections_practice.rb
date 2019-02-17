@@ -43,6 +43,10 @@ def merge_data(a, b)
 end
 
 def find_cool(a)
+  
+end
+
+def organize_schools(a)
   schools = []
   new_hash = {}
   a.each do
@@ -53,8 +57,4 @@ def find_cool(a)
       end
     end
   end
-end
-
-def organize_schools(a)
-  a.sort
 end
