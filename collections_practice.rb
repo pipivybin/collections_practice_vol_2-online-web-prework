@@ -49,7 +49,6 @@ def find_cool(a)
     |hash| hash.each do
         |key, value| if value == "cool"
           return hash
-        
       end
     end
   end
