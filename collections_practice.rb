@@ -1,3 +1,5 @@
+require 'pry'
+
 def begins_with_r(a)
   if a.all?  { |x|
     x.start_with?("r")
