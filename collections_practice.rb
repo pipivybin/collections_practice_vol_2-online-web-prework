@@ -46,6 +46,7 @@ end
 
 def find_cool(a)
   a.each do
+    binding.pry
     |hash| hash.each do
       |subhash| subhash.each do
         |key, value| if value == "cool"
