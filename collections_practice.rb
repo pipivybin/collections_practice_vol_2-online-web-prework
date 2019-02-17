@@ -53,8 +53,11 @@ def organize_schools(a)
   new_hash = {}
   a.each do
       |school, hash| hash.each do
-        |key, city| schools << school
+        |key, city| 
+          schools << school
         new_hash[city] = schools
+      else schools << school
+      end
       end
     end
   new_hash
